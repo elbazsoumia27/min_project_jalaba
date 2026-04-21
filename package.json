@@ -12,6 +12,7 @@
     "dev": "react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "ci:install": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts\\windows-npm-ci-fix.ps1",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
